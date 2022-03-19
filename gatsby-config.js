@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: `HelpUA`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    description: `Self-organized community of Ukrainian volunteers, who live in the United States.
+Ukraine is facing an unprecedented, full-scale war and we can not and will not stand aside`,
+    author: `@Lwawn`,
+    siteUrl: `https://help-ua.org.ua/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
