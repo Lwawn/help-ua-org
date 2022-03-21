@@ -2,3 +2,8 @@
   font-family: "e-Ukraine";
   src: url("../fonts/e-Ukraine-Regular.otf");
 }
+
+@font-face {
+  font-family: "e-Ukraine-logo";
+  src: url("../fonts/e-UkraineHead-Medium.otf");
+}
