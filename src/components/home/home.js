@@ -14,9 +14,10 @@ export const Home = () => (
 
        <div className="home-right">
            <StaticImage
-               src="../images/kyivFreedom.png"
+               src="../../images/kyiv-freedom.png"
                width={300}
-               alt="A Ukraine field"
+
+               alt="Kyiv Khreshchatyk street"
                style={{ marginBottom: `1.45rem` }}
            />
        </div>
