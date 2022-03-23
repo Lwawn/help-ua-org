@@ -1,7 +1,7 @@
 import * as React from "react"
-import "./footer.css"
 import {Link} from "gatsby";
 import {StaticImage} from "gatsby-plugin-image";
+import "./footer.css"
 
 const Footer = () => (
     <div className="footer-block">
@@ -18,7 +18,7 @@ const Footer = () => (
                 </Link>
             </div>
             <div>
-                <Link to="/page-2/" target="_blank">
+                <Link to="https://twitter.com/helpua2" target="_blank">
                     <StaticImage
                         src="../../images/social/tw.png"
                         width={22}
@@ -28,7 +28,6 @@ const Footer = () => (
                 </Link>
             </div>
         </div>
-        {/*<Link to="/page-2/">Go to page 2</Link> <br />*/}
     </div>
 )
 

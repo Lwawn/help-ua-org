@@ -1,0 +1,77 @@
+.donate-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: calc(100vh - 70.55px);
+}
+
+.donate-left {
+    color: #000000;
+    width: 572px;
+}
+
+.donate-left h2 {
+    font-family: 'e-Ukraine-Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 40px;
+}
+
+.donate-left p {
+    font-family: 'e-Ukraine-Light';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.venmo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 153px;
+    height: 48px;
+    background-color: #2185E4;
+    color: #FFF;
+    border-radius: 3px;
+    font-family: 'e-Ukraine-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none
+}
+
+.donate-btns {
+    display: flex;
+}
+
+.donate-btns a:first-child{
+    margin-right: 20px;
+}
+
+.fundly {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 153px;
+    height: 48px;
+    border: 1px solid #2185E4;
+    color: #000000;
+    border-radius: 3px;
+    font-family: 'e-Ukraine-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
