@@ -1,11 +1,11 @@
 .home-block {
     display: flex;
-    height: calc(100vh - 74.55px);
+    height: calc(100vh - 70.55px);
 }
 
 .home-left {
     padding-top: 1.45rem;
-    margin-left: 20px;
+    padding-left: 20px;
     width: 50%;
     display: flex;
     justify-content: center;
@@ -37,6 +37,7 @@ h1 {
     font-size: 20px;
     line-height: 28px;
     color: #000000;
+    width: 580px;
 }
 
 .home-text {

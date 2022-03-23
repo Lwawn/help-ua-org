@@ -15,10 +15,9 @@ export const Home = () => (
        <div className="home-right">
            <StaticImage
                src="../../images/kyiv-freedom.png"
-               width={300}
-
-               alt="Kyiv Khreshchatyk street"
-               style={{ marginBottom: `1.45rem` }}
+               width={710}
+               height={836}
+               alt="Ukraine Free Image"
            />
        </div>
     </div>
