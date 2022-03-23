@@ -1,70 +1,74 @@
 .home-block {
-    display: flex;
-    height: calc(100vh - 70.55px);
+  display: flex;
+  height: calc(100vh - 70.55px);
 }
 
 .home-left {
-    padding-top: 1.45rem;
-    padding-left: 20px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  padding-top: 1.45rem;
+  padding-left: 20px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .text-blue {
-    font-family: 'e-Ukraine Head';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 32px;
-    color: #2185E4;
+  font-family: "e-Ukraine Head", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: #2185e4;
 }
 
 h1 {
-    font-family: 'e-Ukraine Head';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 60px;
-    color: #000000;
+  font-family: "e-Ukraine Head", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  color: #000000;
 }
 
 .home-description {
-    font-family: 'e-Ukraine';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 28px;
-    color: #000000;
-    width: 580px;
+  font-family: "e-Ukraine", serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  width: 580px;
 }
 
 .home-text {
-    padding-top: 14px;
-    font-family: 'e-Ukraine';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 20px;
-    color: #000000;
+  padding-top: 14px;
+  font-family: "e-Ukraine", serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
 }
 
 .home-text-blue {
-    color: #2185E4;
+  color: #2185e4;
 }
 
-.home-left  .btn-donate {
-    width: 91px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: 'e-Ukraine Head';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    background-color: #2185E4;
-    padding: 8px 16px;
-    border-radius: 3px;
-    cursor: pointer;
+.home-left .btn-donate {
+  width: 91px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "e-Ukraine Head", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #2185e4;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.home-right {
+  width: 50%;
 }
