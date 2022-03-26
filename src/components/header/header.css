@@ -3,8 +3,8 @@
   position: static;
   width: 94px;
   height: 24px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
 
   font-family: "e-Ukraine", serif;
   font-style: normal;
@@ -16,7 +16,6 @@
   background: linear-gradient(180deg, #52a5fc 22.77%, #f7ce00 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-clip: text;
   text-fill-color: transparent;
 
   /* Inside auto layout */
@@ -24,13 +23,51 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 0px 4px;
+  margin: 0 4px;
+}
+.header {
+  background: #000000;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.header-block {
+  padding: 0.96rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navbar {
-  display: inline-block;
-  position: static;
-  margin: 0 auto;
-  width: 30%;
+  display: flex;
+  align-items: center;
   color: #ffffff;
+}
+
+.navbar p {
+  font-size: 16px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.btn-donate {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'e-Ukraine Head';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  background-color: #2185E4;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
 }

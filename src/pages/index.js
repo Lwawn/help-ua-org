@@ -1,27 +1,22 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Home } from "../components/home/home"
+import { Donate } from "../components/donate/donate"
+import { Contact } from "../components/contact/contact";
+import { Work } from "../components/work/work";
+import { Description } from "../components/description/description";
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to our new non profit organization website.</p>
-    <p>Currently under construction</p>
-    <StaticImage
-      src="../images/field.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Ukraine field"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-    </p>
+
+    <Home />
+    <Description />
+    <Work />
+    <Contact />
+    <Donate />
+
   </Layout>
 )
 
