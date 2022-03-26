@@ -10,7 +10,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header/header"
-import Footer from "./footer/footer";
+import Footer from "./footer/footer"
+import TwitterTimeline from "./twitter-timeline/twitter-timeline"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -30,6 +31,7 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
       </div>
+      <TwitterTimeline />
       <Footer />
     </>
   )

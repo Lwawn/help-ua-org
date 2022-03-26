@@ -20,7 +20,8 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "react-twitter-widgets": "^1.10.0"
   },
   "keywords": [
     "gatsby"
