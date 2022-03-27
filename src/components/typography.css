@@ -4,6 +4,10 @@
 }
 
 @font-face {
+  font-family: "e-Ukraine-Light";
+  src: url("../fonts/e-Ukraine-Light.otf");
+}
+@font-face {
   font-family: "e-Ukraine-logo";
   src: url("../fonts/e-UkraineHead-Medium.otf");
 }
