@@ -10,7 +10,7 @@ const Footer = () => (
             <div className="inst-icon">
                 <Link to="https://www.instagram.com/helpua2/" target="_blank">
                     <StaticImage
-                        src="../../images/social/inst.png"
+                        src="../../images/social/inst.svg"
                         width={22}
                         height={22}
                         alt="Instagram"
@@ -20,7 +20,7 @@ const Footer = () => (
             <div>
                 <Link to="https://twitter.com/helpua2" target="_blank">
                     <StaticImage
-                        src="../../images/social/tw.png"
+                        src="../../images/social/tw.svg"
                         width={22}
                         height={22}
                         alt="Twitter"
