@@ -599,16 +599,10 @@ pre tt:after {
 }
 
 .section-title {
-  font-family: 'e-Ukraine-Light', sans-serif;
+  font-family: "e-Ukraine-Light", sans-serif;
   font-style: normal;
   font-weight: 200;
   font-size: 20px;
   line-height: 28px;
-  /* identical to box height, or 140% */
-
-
-  /* Text / Body / White */
-
-  color: #FFFFFF;
-
+  padding: 1em 0;
 }
