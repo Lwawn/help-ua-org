@@ -6,12 +6,14 @@ const Header = ({ siteTitle }) => (
   <header className="header">
     <div className="header-block">
       <div className="logo">#helpUA</div>
-        <div className="navbar">
-            <p>About</p>
-            <p>Our Twitter</p>
-            <p>Contact us</p>
-        </div>
-        <div className="btn-donate">Help Ukraine</div>
+      <div className="navbar">
+        <p>
+          <a href="#about">About</a>
+        </p>
+        <p>Our Twitter</p>
+        <p>Contact us</p>
+      </div>
+      <div className="btn-donate">Help Ukraine</div>
     </div>
   </header>
 )
