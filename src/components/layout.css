@@ -597,3 +597,12 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+.section-title {
+  font-family: "e-Ukraine-Light", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 28px;
+  padding: 1em 0;
+}
