@@ -12,7 +12,9 @@ export const Home = () => (
         Ukraine along the entire length of the common border and from the
         territory of Belarus. Ukraine is fiercely resisting.
       </p>
-      <a className="btn-donate" href="#donate">Donate</a>
+      <a className="btn-donate" href="#donate">
+        Donate
+      </a>
       <p className="home-text">
         You can <span className="home-text-blue">stop russian agression!</span>
       </p>
