@@ -42,11 +42,18 @@
 
 .twitter-timeline {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .tweet-element {
-  width: 30%;
+  width: 300px;
+}
+
+@media (max-width: 901px) {
+  .twitter-block {
+    display: none;
+  }
 }
 
 

@@ -71,3 +71,9 @@
   border-radius: 3px;
   cursor: pointer;
 }
+
+@media (max-width: 901px) {
+  .navbar p {
+    display: none;
+  }
+}

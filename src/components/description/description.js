@@ -15,7 +15,6 @@ export const Description = () => (
                     alt="Field Image"
                 />
             </div>
-
             <div className="description-right">
                 <p>
                     We are a self-organized community of Ukrainian volunteers,

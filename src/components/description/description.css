@@ -57,3 +57,21 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 901px) {
+    .description-block {
+        height: 100vh;
+    }
+    .description {
+        flex-direction: column;
+    }
+    .description-left{
+        width: 100%;
+    }
+    .description-right {
+        width: 100%;
+    }
+    .description-right p {
+        font-size: 20px;
+    }
+}

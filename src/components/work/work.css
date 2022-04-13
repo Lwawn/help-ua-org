@@ -41,5 +41,8 @@
     align-items: center;
 }
 
-
-
+@media (max-width: 901px) {
+    .work-block {
+        display: none;
+    }
+}
