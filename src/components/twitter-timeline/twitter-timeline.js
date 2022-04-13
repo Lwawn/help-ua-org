@@ -1,9 +1,8 @@
 import * as React from "react"
-
-import "./twitter-timeline.css"
 import { Tweet } from "react-twitter-widgets"
+import "./twitter-timeline.css"
 
-const TwitterTimeline = () => (
+export const TwitterTimeline = () => (
   <div className="twitter-parent">
     <div className="section-title">Our twitter</div>
     <div className="white-line" />
@@ -49,5 +48,3 @@ const TwitterTimeline = () => (
     </div>
   </div>
 )
-
-export default TwitterTimeline
