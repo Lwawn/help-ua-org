@@ -4,7 +4,7 @@ import "./description.css"
 
 export const Description = () => (
     <div className="description-block">
-        <div className="description-title">Who we are?</div>
+        <div className="section-title">Who we are?</div>
         <div className="white-line" />
         <div className="description">
             <div className="description-left">

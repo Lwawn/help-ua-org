@@ -1,54 +1,53 @@
 import * as React from "react"
-import { Tweet } from "react-twitter-widgets"
+
 import "./twitter-timeline.css"
+import { Tweet } from "react-twitter-widgets"
 
-export const TwitterTimeline = () => {
-  let twitterBlockWidth = 350
-
-  return (
-      <div className="twitter-block">
-        <div className="twitter-parent">
-          <div className="twitter-title">Our Twitter</div>
-          <div className="white-line" />
-          <div className="twitter-timeline">
-            <div className="tweet-element">
-              <Tweet
-                  tweetId="1503527480346488835"
-                  options={{ width: twitterBlockWidth, height: "300px", align: "center" }}
-              />
-            </div>
-            <div className="tweet-element">
-              <Tweet
-                  tweetId="1503527480346488835"
-                  options={{ width: twitterBlockWidth, height: "300px", align: "center" }}
-              />
-            </div>
-            <div className="tweet-element">
-              <Tweet
-                  tweetId="1503527480346488835"
-                  options={{ width: twitterBlockWidth, height: "300px", align: "center" }}
-              />
-            </div>
-            <div className="tweet-element">
-              <Tweet
-                  tweetId="1503527480346488835"
-                  options={{ width: twitterBlockWidth, height: "300px", align: "center" }}
-              />
-            </div>
-            <div className="tweet-element">
-              <Tweet
-                  tweetId="1503527480346488835"
-                  options={{ width: twitterBlockWidth, height: "300px", align: "center" }}
-              />
-            </div>
-            <div className="tweet-element">
-              <Tweet
-                  tweetId="1503527480346488835"
-                  options={{ width: twitterBlockWidth, height: "300px", align: "center" }}
-              />
-            </div>
-          </div>
-        </div>
+const TwitterTimeline = () => (
+  <div className="twitter-parent">
+    <div className="section-title">Our twitter</div>
+    <div className="white-line" />
+    <div className="twitter-timeline">
+      <div className="tweet-element">
+        <Tweet
+          tweetId="1503527480346488835"
+          options={{ width: "100%", height: "310px", align: "center" }}
+        />
       </div>
-  )
-}
+      <div className="tweet-element">
+        <Tweet
+          tweetId="1503527480346488835"
+          options={{ width: "100%", height: "310px", align: "center" }}
+        />
+      </div>
+      <div className="tweet-element">
+        <Tweet
+          tweetId="1503527480346488835"
+          options={{ width: "100%", height: "310px", align: "center" }}
+        />
+      </div>
+    </div>
+    <div className="twitter-timeline">
+      <div className="tweet-element">
+        <Tweet
+          tweetId="1503527480346488835"
+          options={{ width: "100%", height: "310px", align: "center" }}
+        />
+      </div>
+      <div className="tweet-element">
+        <Tweet
+          tweetId="1503527480346488835"
+          options={{ width: "100%", height: "310px", align: "center" }}
+        />
+      </div>
+      <div className="tweet-element">
+        <Tweet
+          tweetId="1503527480346488835"
+          options={{ width: "100%", height: "310px", align: "center" }}
+        />
+      </div>
+    </div>
+  </div>
+)
+
+export default TwitterTimeline

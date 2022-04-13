@@ -5,7 +5,7 @@ import "./work.css"
 export const Work = () => (
     <div className="work-block">
         <div className="work-left">
-            <div className="work-title">What we are doing?</div>
+            <div className="section-title">What we are doing?</div>
             <div className="white-line" />
             <div className="work-description">
                 We created this community as well as fundraising
