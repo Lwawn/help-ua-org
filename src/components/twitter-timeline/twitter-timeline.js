@@ -5,6 +5,7 @@ import { Tweet } from "react-twitter-widgets"
 
 const TwitterTimeline = () => (
   <div className="twitter-parent">
+    <div className="section-anchor" id="our-twitter" />
     <div className="section-title">Our twitter</div>
     <div className="white-line" />
     <div className="twitter-timeline">
