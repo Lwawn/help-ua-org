@@ -39,7 +39,9 @@ export const Donate = () => (
               height={24}
               alt="fundly icon"
             />
-            <div className="donate-text">Fundly</div>
+            <div className="donate-text" style={{ color: "black" }}>
+              Fundly
+            </div>
           </Link>
         </div>
       </div>

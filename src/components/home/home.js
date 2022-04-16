@@ -22,7 +22,7 @@ export const Home = () => (
 
     <div className="home-right">
       <StaticImage
-        src="../../images/kyiv-freedom.png"
+        src="../../images/kyiv-freedom-2.png"
         alt="Ukraine Free Image"
         style={{ width: "100%" }}
       />

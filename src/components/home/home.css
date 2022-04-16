@@ -13,64 +13,65 @@
 }
 
 .text-blue {
-    font-family: 'e-Ukraine', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 32px;
-    color: #2185E4;
+  font-family: "e-Ukraine", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  color: #2185e4;
 }
 
 h1 {
-    font-family: 'e-Ukraine-logo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 60px;
-    color: #000000;
+  font-family: "e-Ukraine-logo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  color: #000000;
 }
 
 .home-description {
-    font-family: 'e-Ukraine-Light';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 28px;
-    color: #000000;
-    max-width: 580px;
+  font-family: "e-Ukraine-Light";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  max-width: 580px;
 }
 
 .home-text {
-    padding-top: 14px;
-    font-family: 'e-Ukraine-Light';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 14px;
-    line-height: 20px;
-    color: #000000;
+  padding-top: 14px;
+  font-family: "e-Ukraine-Light";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
 }
 
 .home-text-blue {
   color: #2185e4;
 }
 
-.home-left  .btn-donate {
-    width: 91px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: 'e-Ukraine', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 24px;
-    background-color: #2185E4;
-    padding: 8px 16px;
-    border-radius: 3px;
-    cursor: pointer;
+.home-left .btn-donate {
+  width: 91px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "e-Ukraine", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 24px;
+  background-color: #2185e4;
+  padding: 8px 16px;
+  border-radius: 3px;
+  cursor: pointer;
 }
 
 .home-right {
   width: 50%;
+  z-index: -1;
 }
 
 @media (max-width: 900px) {
