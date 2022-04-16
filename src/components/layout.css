@@ -6,6 +6,7 @@ html {
   /*font: 112.5%/1.45em georgia, serif, sans-serif;*/
   box-sizing: border-box;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -596,6 +597,19 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.section-anchor {
+  min-height: 30px;
+  margin-bottom: 30px;
 }
 
 .section-title {

@@ -13,7 +13,7 @@
 }
 
 .text-blue {
-    font-family: 'e-Ukraine-Bold';
+    font-family: 'e-Ukraine', serif;
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -22,7 +22,7 @@
 }
 
 h1 {
-    font-family: 'e-Ukraine-Bold';
+    font-family: 'e-Ukraine-logo';
     font-style: normal;
     font-weight: 400;
     font-size: 56px;
@@ -58,10 +58,10 @@ h1 {
     width: 91px;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: 'e-Ukraine-Bold';
+    font-family: 'e-Ukraine', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
     background-color: #2185E4;
     padding: 8px 16px;
