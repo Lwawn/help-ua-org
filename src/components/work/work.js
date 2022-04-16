@@ -17,8 +17,8 @@ export const Work = () => (
         <div className="work-right">
             <StaticImage
                 src="../../images/war.png"
-                width={690}
-                height={621}
+                width={580}
+                height={501}
                 alt="War Image"
             />
         </div>

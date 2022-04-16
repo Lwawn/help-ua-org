@@ -77,6 +77,7 @@ h1 {
     .home-block {
         flex-direction: column;
         justify-content: space-around;
+        height: auto;
     }
     .home-right {
         height: 70%;

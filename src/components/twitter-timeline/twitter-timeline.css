@@ -51,7 +51,7 @@
 }
 
 @media (max-width: 901px) {
-  .twitter-block {
+  .twitter-parent {
     display: none;
   }
 }
