@@ -6,7 +6,11 @@ export const Contact = () => (
   <div className="contact-block" id="contact-us">
     <div className="section-anchor" />
     <div className="contact-left">
-      <StaticImage src="../../images/marik_smol.jpg" alt="Avatar" />
+      <StaticImage
+        src="../../images/marik_smol.jpg"
+        alt="Avatar"
+        style={{ height: "200px", width: "200px" }}
+      />
       <p className="contact-text">
         Hi, my name is Marian. Ukraine is facing an unprecedented, full-scale
         war. We created this fundraising to help victims from russian aggression
