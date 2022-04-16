@@ -10,19 +10,19 @@ export const TwitterTimeline = () => (
     <div className="twitter-timeline">
       <div className="tweet-element">
         <Tweet
-          tweetId="1503527480346488835"
+          tweetId="1511704538750853130"
           options={{ width: "100%", height: "310px", align: "center" }}
         />
       </div>
       <div className="tweet-element">
         <Tweet
-          tweetId="1503527480346488835"
+          tweetId="1511714889579974660"
           options={{ width: "100%", height: "310px", align: "center" }}
         />
       </div>
       <div className="tweet-element">
         <Tweet
-          tweetId="1503527480346488835"
+          tweetId="1511712722316050435"
           options={{ width: "100%", height: "310px", align: "center" }}
         />
       </div>
