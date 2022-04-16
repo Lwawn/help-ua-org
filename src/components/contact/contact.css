@@ -53,3 +53,27 @@
     padding-left: 10px;
 }
 
+@media (max-width: 901px) {
+    .contact-block {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: auto;
+    }
+    .contact-left {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    .contact-text {
+        width: 260px;
+        font-size: 20px;
+        margin-left: 0;
+    }
+    .contact-right {
+        width: 100%;
+    }
+    .contact-right a p {
+        font-size: 20px;
+    }
+}

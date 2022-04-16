@@ -72,3 +72,30 @@ h1 {
 .home-right {
   width: 50%;
 }
+
+@media (max-width: 900px) {
+    .home-block {
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+    .home-right {
+        height: 70%;
+        width: 100%;
+    }
+    .home-left {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .home-right {
+        height: 65%;
+    }
+}
+
+@media (max-width: 710px) {
+    .home-right {
+        height: 50%;
+    }
+}

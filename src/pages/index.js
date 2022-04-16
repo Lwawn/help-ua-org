@@ -6,6 +6,7 @@ import { Donate } from "../components/donate/donate"
 import { Contact } from "../components/contact/contact"
 import { Work } from "../components/work/work"
 import { Description } from "../components/description/description"
+import { TwitterTimeline } from "../components/twitter-timeline/twitter-timeline"
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Home />
     <Description />
     <Work />
+    <TwitterTimeline />
     <Contact />
     <Donate />
   </Layout>
