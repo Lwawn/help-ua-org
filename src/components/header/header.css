@@ -2,6 +2,7 @@
   display: inline;
   position: static;
   width: 94px;
+  min-width: 95px;
   height: 24px;
   left: 0;
   top: 0;
