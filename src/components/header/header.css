@@ -2,7 +2,9 @@
   display: inline;
   position: static;
   width: 94px;
-  min-width: 95px;
+  min-width: min-content;
+  max-width: min-content;
+  min-width: -webkit-min-content;
   height: 24px;
   left: 0;
   top: 0;

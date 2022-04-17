@@ -6,7 +6,7 @@ export const TwitterTimeline = () => (
   <div className="twitter-parent">
     <div className="section-anchor" id="our-twitter" />
     <div className="section-title">Our twitter</div>
-    <div className="white-line" />
+    <div className="black-line" />
     <div className="twitter-timeline">
       <div className="tweet-element">
         <Tweet

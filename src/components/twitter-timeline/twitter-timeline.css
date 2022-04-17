@@ -16,10 +16,10 @@
   line-height: 28px;
 }
 
-.white-line {
+.black-line {
   height: 1px;
   width: 100%;
-  background: #FFFFFF;
+  background: #000;
   opacity: 0.5;
   margin-bottom: 32px;
   margin-top: 4px;
