@@ -56,7 +56,9 @@ h1 {
 
 .home-left .btn-donate {
   width: 91px;
-  min-width: 95px;
+  min-width: min-content;
+  max-width: min-content;
+  min-width: -webkit-min-content;
   color: #ffffff;
   text-transform: uppercase;
   font-family: "e-Ukraine", sans-serif;
