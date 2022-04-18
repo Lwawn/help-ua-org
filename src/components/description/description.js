@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import "./description.css"
 
 export const Description = () => (
-  <div className="description-block">
+  <div className="description-block" id="about">
     <div className="section-title">Who we are?</div>
     <div className="white-line" />
     <div className="description">
