@@ -5,7 +5,7 @@ import "./work.css"
 export const Work = () => (
   <div className="work-block">
     <div className="work-left">
-      <div className="section-anchor" id="about" />
+      <div className="section-anchor" />
       <div className="section-title">What we are doing?</div>
       <div className="white-line" />
       <div className="work-description">
